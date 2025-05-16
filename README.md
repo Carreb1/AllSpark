@@ -1,9 +1,9 @@
-# Projeto AllSpark - CubeSat
+# Projeto Guarani - CubeSat
 
-Bem-vindo ao repositório oficial do **Projeto AllSpark**, uma iniciativa do grupo **TOPUS - Projetos Aeroespaciais**. Este projeto é um esforço colaborativo de estudantes voltado ao aprendizado e desenvolvimento prático no campo de CubeSats.
+Bem-vindo ao repositório oficial do **Projeto Guarani**, uma iniciativa do grupo **TOPUS - Projetos Aeroespaciais**. Este projeto é um esforço colaborativo de estudantes voltado ao aprendizado e desenvolvimento prático no campo de CubeSats.
 
 ## 📌 Descrição da Missão
-O **Projeto AllSpark** tem como objetivo o desenvolvimento e operação de um **CubeSat 1U** para **análise de solo e terreno por meio de cor**, utilizando técnicas avançadas de **visão computacional embarcada**. O satélite será lançado na **região do interior de São Paulo** e operará a aproximadamente **1.5 km de altitude**. Ele captará imagens coloridas do solo, aplicando algoritmos de **processamento de imagem** para identificar padrões de solo e vegetação, além de destacar regiões de possível interesse.
+O **Projeto Guarani** tem como objetivo o desenvolvimento e operação de um **CubeSat 1U** para **análise de solo e terreno por meio de cor**, utilizando técnicas avançadas de **visão computacional embarcada**. O satélite será lançado na **região do interior de São Paulo** e operará a aproximadamente **1.5 km de altitude**. Ele captará imagens coloridas do solo, aplicando algoritmos de **processamento de imagem** para identificar padrões de solo e vegetação, além de destacar regiões de possível interesse.
 
 O CubeSat será equipado com uma **câmera otimizada para capturas a 1.5 km de altitude**, com ajustes automáticos de exposição e filtros opcionais. O **processamento poderá ocorrer a bordo** por meio de uma **board embarcada** (**TORADEX** ou alternativas como Raspberry), sendo analisadas **redes neurais** para segmentação de cores e classificação do terreno. O sistema incluirá **módulos de comunicação, sensores auxiliares e memória adicional**. No software, serão implementadas **técnicas de visão computacional** para segmentação e análise de cor, com compressão eficiente para transmissão dos dados à estação terrestre.
 
