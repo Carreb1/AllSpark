@@ -1,0 +1,20 @@
+import RPi.GPIO as GPIO
+import time
+
+# Use BCM pin numbering
+LED_PIN = 17  # GPIO17 = physical pin 11
+
+# Setup
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(LED_PIN, GPIO.OUT)
+
+try:
+    while True:
+        GPIO.output(LED_PIN, GPIO.HIGH)  # LED ON
+        time.sleep(1)                    # 1 second
+        GPIO.output(LED_PIN, GPIO.LOW)   # LED OFF
+        time.sleep(1)                    # 1 second
+except KeyboardInterrupt:
+    pass
+finally:
+    GPIO.cleanup()
